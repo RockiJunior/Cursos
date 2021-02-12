@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+
+    <form action="#" onsubmit="return onSubmit($event);">
+
+
+        <div>Nombre de Usuario<input minlength="1" maxlength="3" type="text" name="Usname"></div><br>
+        <div>Email<input type="email"></div><br>
+        <div>DNI<input type="number"></div><br>
+        <div>Fecha de Nacimiento<input type="date"></div><br>
+        <label for="localidad">Elige tu Localidad</label><br>
+        <select name="Localidad" id="localidad">
+        <option value="Marcos Juarez">Marcos Juarez</option>
+        <option value="Villa Maria">Villa Maria</option>
+        <option value="Cordoba Capital">Cordoba Capital</option>
+    </select>
+        <br>
+        <div>Numero de Telefono<input type="tel"></div><br>
+        <div>Contraseña<input type="password"></div><br>
+
+        <button type="submit">Send Formulary</button>
+    </form>
+
+    <script src="send.js"></script>
+
+</body>
+
+</html>

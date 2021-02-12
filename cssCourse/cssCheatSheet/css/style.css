@@ -1,0 +1,230 @@
+/* * {
+    margin: o;
+    padding: 0;
+} */
+
+.img {
+    width: 10px;
+    height: 10px;
+}
+
+.titulo-1 {
+    color: tomato;
+    height: 15px;
+    display: flex;
+    justify-content: center
+}
+
+.titulo-2 {
+    color: tomato;
+    height: 15px;
+    display: flex;
+    justify-content: center
+}
+
+body {
+    background-color: rgb(37, 36, 36);
+    color: #e6e7ee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* Same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: blue
+}
+
+a:visited {
+    color: yellow;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: black;
+    color: tomato;
+    padding: 10px 15px;
+    border: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.box-1 {
+    background-color: tomato;
+    color: black;
+    border: dotted;
+    /* Padding*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* same as above */
+    padding: 20px;
+    /* general margin */
+    margin-top: 20px;
+    margin: 20px 0;
+}
+
+.box-2 {
+    background-color: tomato;
+    color: black;
+    border: dotted;
+    margin-bottom: 20px;
+}
+
+.box-h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.categories {
+    background-color: tomato;
+    color: black;
+    margin-top: 20px;
+    border: 1px black;
+    border: dashed;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+    text-emphasis-color: black;
+}
+
+.categories-tittle {
+    font-size: 60px;
+}
+
+.categories ul {
+    padding: 20px;
+    list-style: square;
+}
+
+.categories li {
+    font-size: 20px;
+    padding-bottom: 6px;
+    border-bottom: dotted 3px black;
+    list-style-image: url('../img/cheque.svg');
+}
+
+.my-form {
+    padding: 20px;
+    color: tomato;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input {
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    color: tomato;
+    float: left;
+    width: 33.3%;
+    border: 1.5px solid black;
+    border-radius: 3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    background-color: rgb(37, 36, 36);
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    background-color: tomato;
+    color: black;
+    border: dotted black;
+    float: right;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    color: black;
+    width: 800px;
+    height: 500px;
+    border: 3px dotted black;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../img/bgImage.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* background-position: 100px 200px; */
+}
+
+.p-box h2 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h3 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child {
+    background: red
+}
+
+.my-list li:last-child {
+    background: blue
+}
+
+.my-list li:nth-child(5) {
+    background: yellow
+}
+
+.my-list li:nth-child(even) {
+    background: grey
+}

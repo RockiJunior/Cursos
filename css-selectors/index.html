@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css-selectors/style.css">
+</head>
+
+<body>
+    <!-- Para subir a git: -->
+    <!-- git status # Sirve para ver los archivos con cambios-->
+    <!-- git diff # Sirve para ver que cambios se hicieron en los archivos de arriba -->
+    <!-- git add . # Sirve para agregar los archivos al commit -->
+    <!-- . # el punto sirve para hacer ALL-->
+    <!-- git commit -m "mensaje de descripcion"  # Sirve para confirmar los cambios -->
+    <!-- git push -->
+
+    <!-- NO SE PUEDE CAMBIAR NINGUN ELEMENTO/TAG/CLASE, solo css -->
+    <a href="https://www.w3schools.com/cssref/css_selectors.asp">Ayudin</a>
+
+    <!-- Todos los div deben tener letra 15px cursiva -->
+
+
+    <!-- Todos los hijos con clase hijo-par tienen que tener color lila -->
+    <!-- Todos los hijos con clase hijo-impar tienen que tener color verde -->
+    <!-- pero si tienen hijo-par y privilegiado tienen que ser Amarillo -->
+    <!-- pero si tienen hijo-impar y privilegiado tienen que ser Negro -->
+    <div class="papa">
+        <div class="hijo-impar">Hola soy el hijo 1</div>
+        <div class="hijo-par privilegiado">Hola soy el hijo 2 privilegiado</div>
+        <div class="hijo-impar">Hola soy el hijo 3</div>
+        <div class="hijo-par">Hola soy el hijo 4</div>
+        <div class="hijo-impar privilegiado">Hola soy el hijo 5 privilegiado</div>
+        <div class="hijo-par privilegiado">Hola soy el hijo 6 privilegiado</div>
+    </div>
+
+    <!-- FONDO: El primero (Uno) amarillo, el ultimo (Tres) rojo el del medio sin nada -->
+    <div class="numeros">
+        <div>Uno</div>
+        <div>Dos</div>
+        <div>Tres</div>
+    </div>
+
+    <!-- Todas con el fondo verde, el del medio con el texto rojo -->
+    <div class="pc">
+        <div class="mouse">mouse</div>
+        <div class="teclado">teclado</div>
+        <div class="monitor">monitor</div>
+    </div>
+
+
+
+</body>
+
+</html>

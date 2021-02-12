@@ -1,0 +1,45 @@
+.papa {
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+body {
+    background-color: blue;
+}
+
+.hijo-par {
+    color: violet;
+}
+
+.hijo-impar {
+    color: green;
+}
+
+.hijo-par.privilegiado {
+    color: yellow;
+}
+
+.hijo-impar.privilegiado {
+    color: black
+}
+
+.numeros>div:first-child {
+    background-color: yellow;
+}
+
+.numeros>div:last-child {
+    background-color: red;
+}
+
+.pc {
+    background-color: green;
+}
+
+.teclado {
+    color: red;
+}
+
+.gil {
+    color: red;
+}
