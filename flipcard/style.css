@@ -44,6 +44,7 @@
     background-color: black;
     color: tomato;
     transform: rotateY(180deg);
+    text-align: center;
 }
 
 .back button {
