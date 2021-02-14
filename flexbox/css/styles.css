@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 45, 45);
+    color: white;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.container>div {
+    border: 1.5px solid tomato;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
