@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 45, 45);
+    color: white;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.container>div {
+    border: 1.5px solid tomato;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/* 
+
+Flex Properties:
+
+.display: flex | inline; #adentro de un container.
+.flex-direction: row | column; #row es para horizontal, column para vertical.
+.flex-wrap: wrap | nowrap | wrapreverse; #los elementos se ordenan si se achica la pantalla.
+.flex-basis: <length>; es como un width.
+.justify-content: flex-start | flex-end | center; MAIN AXIS! si queres aliniar a la izquierda, derecha, o centro. el eje X!
+.align-self: flex-start | flex-end | center; es para los items o elementos individuales
+.align-items: flex-start | flex-end | center; este es para el CROSS AXIS! eje Y.
+.align-content: flex-start | flex-end | center; CROS AXIS. eje y.
+.flex-grow: <number>; diferentes medidas para 
+.flex-shrink: <number>;
+.flex: <integer>;
+.order: <integer>;
+
+*/
