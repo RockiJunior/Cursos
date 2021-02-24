@@ -15,6 +15,9 @@
 .container {
     width: 80%;
     margin: auto;
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; */
     overflow: hidden;
 }
 
@@ -78,5 +81,7 @@ header:hover {
     min-height: 400px;
     background-position: center;
     background-image: url(../img/pubg-lite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
