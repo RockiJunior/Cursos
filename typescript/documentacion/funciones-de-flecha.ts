@@ -18,6 +18,12 @@
 // esta misma, es lo mismo que...
 const miFuncionF = ( a:string ) => a.toUpperCase();
 
+// entonces, una funcion de flecha, se escribe asi..
+// const X = (x:string) => {};
+// 
+// 
+// 
+
 
 const miFuncion = function(a:string){
     return a.toUpperCase();

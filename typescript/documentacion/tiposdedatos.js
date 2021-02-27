@@ -1,15 +1,15 @@
 "use strict";
 (function () {
-    var mensaje = 'hola';
-    var numero = 123;
-    var booleano = true; // false;
-    var hoy = new Date();
-    var cualquierCosa;
+    let mensaje = 'hola';
+    let numero = 123;
+    let booleano = true; // false;
+    let hoy = new Date();
+    let cualquierCosa;
     cualquierCosa = mensaje;
     cualquierCosa = numero;
     cualquierCosa = booleano;
     cualquierCosa = hoy;
-    var spiderman = {
+    let spiderman = {
         nombre: 'peter',
         edad: 30
     };

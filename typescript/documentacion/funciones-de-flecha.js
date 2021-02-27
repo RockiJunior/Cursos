@@ -12,22 +12,26 @@
     //     return a;
     // }
     // esta misma, es lo mismo que...
-    var miFuncionF = function (a) { return a.toUpperCase(); };
-    var miFuncion = function (a) {
+    const miFuncionF = (a) => a.toUpperCase();
+    // entonces, una funcion de flecha, se escribe asi..
+    // const X = (x:string) => {};
+    // 
+    // 
+    // 
+    const miFuncion = function (a) {
         return a.toUpperCase();
     };
     // console.log(miFuncionF('Normal'))
     // console.log(miFuncionF('Flecha'))
-    var sumarN = function (a, b) {
+    const sumarN = function (a, b) {
         return a + b;
     };
-    var sumarF = function (a, b) { return a + b; };
-    var hulk = {
+    const sumarF = (a, b) => a + b;
+    const hulk = {
         nombre: 'Hulk',
-        smash: function () {
-            var _this = this;
-            setTimeout(function () {
-                console.log(_this.nombre + " Smash!!!");
+        smash() {
+            setTimeout(() => {
+                console.log(`${this.nombre} Smash!!!`);
             }, 1000);
         }
     };
