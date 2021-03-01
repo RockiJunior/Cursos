@@ -18,9 +18,11 @@
     const resultadoMultipliacion = multiplicar(a, b);
     // diferencia / resta
     const diferencia = (diferencia1, diferencia2) => diferencia1 - diferencia2;
-    const resultadoDiferencia = diferencia(a, b);
+    // const resultadoDiferencia = diferencia(a,b);
+    // En vez de crear una constante para guardarla en la misma, solo llame a la funcion dentro
+    // del console.log en la linea 36
     // salida
     console.log("El resultado de la suma es...", resultadoSuma);
     console.log("El resultado de la multiplicacion es...", resultadoMultipliacion);
-    console.log("El resultado de la diferencia es...", resultadoDiferencia);
+    console.log("El resultado de la diferencia es...", diferencia(a, b));
 })();
