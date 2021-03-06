@@ -47,7 +47,7 @@ const antman: Avenger = new Avenger('antman', 'Capi');
 // const antman: new Avenger;
 
 
-// si yo quisiera cambiar el argumento de la propiedad equipo.
+// si yo quisiera cambiar el valor de la propiedad equipo.
 // antman.equipo = 'Ironman'; 
 
 console.log(antman)

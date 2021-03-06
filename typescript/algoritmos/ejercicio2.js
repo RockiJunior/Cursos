@@ -1,15 +1,15 @@
 "use strict";
-(() => {
-    const reader = require("readline-sync"); //npm install readline-sync
+(function () {
+    // Dada una terna de numeros naturales que representan 
+    // el dia, el mes y el año de una determinada fecha,
+    // informarla como un solo numero natural de 8 digitos (aaaammdd).
+    var reader = require("readline-sync"); //npm install readline-sync
     // Entradas
-    let year = reader.question("Tape a number for the Year...");
-    let month = reader.question("Tape a number for the Month...");
-    let day = reader.question("Tape a number for the Day...");
+    var year = reader.question("Tape a number for the Year...");
+    var month = reader.question("Tape a number for the Month...");
+    var day = reader.question("Tape a number for the Day...");
     // let valAño = /^[0-9]{4}$/;
     // Procesamientos
-    year = parseInt(year);
-    month = parseInt(month);
-    day = parseInt(day);
     // const validYear = ( vyear:number ) => {
     //     if(vyear < 1000  || vyear > 9999) {
     //         return false;
@@ -23,25 +23,12 @@
     // const validYear = ( vyear:number ) => {
     //     return vyear >= 1000  || vyear <= 9999;
     // };
-    const validYear = (vyear) => vyear >= 1000 || vyear <= 9999;
-    const validMonth = (vmonth) => {
-        if (vmonth < 1 || vmonth > 12) {
-            return false;
-        }
-        else {
-            return true;
-        }
-    };
-    const validDay = (vDay) => {
-        if (vDay < 1 || vDay > 31) {
-            return false;
-        }
-        else {
-            return true;
-        }
-    };
-    // const validDate = (validDay:number ) => {
-    // };
+    year = parseInt(year);
+    month = parseInt(month);
+    day = parseInt(day);
+    var validYear = function (vyear) { return vyear >= 1000 && vyear <= 9999; }; //true??????????
+    var validMonth = function (vmonth) { return vmonth >= 1 && vmonth <= 12; };
+    var validDay = function (vDay) { return vDay >= 1 && vDay <= 31; };
     // Salidas
     // if (validDay(day) === false)  {
     //     console.log("Invalid Day")
@@ -56,6 +43,6 @@
         console.log("Invalid year");
     }
     if (validDay(day) === true && validMonth(month) === true && validYear(year) === true) {
-        console.log(`The date is ${year}${month}${day}`);
+        console.log("The date is " + year + month + day);
     }
 })();

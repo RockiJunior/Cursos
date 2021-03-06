@@ -1,23 +1,23 @@
 "use strict";
 // import { parse } from "path";
-(() => {
-    const reader = require("readline-sync"); //npm install readline-sync
+(function () {
+    var reader = require("readline-sync"); //npm install readline-sync
     // let numero1 = reader.question("Ingrese el numero 1: ");
     // entradas
-    let a = reader.question("coloque el primer valor: ");
-    let b = reader.question("coloque el segundo valor: ");
+    var a = reader.question("coloque el primer valor: ");
+    var b = reader.question("coloque el segundo valor: ");
     // procesamiento
     // convertir a int
     a = parseInt(a);
     b = parseInt(b);
     // suma
-    const sumar = (sumando1, sumando2) => sumando1 + sumando2;
-    const resultadoSuma = sumar(a, b);
+    var sumar = function (sumando1, sumando2) { return sumando1 + sumando2; };
+    var resultadoSuma = sumar(a, b);
     // multiplicacion
-    const multiplicar = (multiplicar1, multiplicar2) => multiplicar1 * multiplicar2;
-    const resultadoMultipliacion = multiplicar(a, b);
+    var multiplicar = function (multiplicar1, multiplicar2) { return multiplicar1 * multiplicar2; };
+    var resultadoMultipliacion = multiplicar(a, b);
     // diferencia / resta
-    const diferencia = (diferencia1, diferencia2) => diferencia1 - diferencia2;
+    var diferencia = function (diferencia1, diferencia2) { return diferencia1 - diferencia2; };
     // const resultadoDiferencia = diferencia(a,b);
     // En vez de crear una constante para guardarla en la misma, solo llame a la funcion dentro
     // del console.log en la linea 36

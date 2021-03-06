@@ -15,6 +15,8 @@
     // const miFuncionF = ( a:string ) => {
     //     return a;
     // }
+
+    
 // esta misma, es lo mismo que...
 const miFuncionF = ( a:string ) => a.toUpperCase();
 
