@@ -6,7 +6,7 @@
     var putFirstValue = reader.question("Put the First value..."); //3
     var putSecondValue = reader.question("Put the Second value..."); //5
     // 15
-    // // Data Processing
+    // Data Processing
     putFirstValue = parseInt(putFirstValue);
     putSecondValue = parseInt(putSecondValue);
     var acumulador = 0;
@@ -14,11 +14,11 @@
     for (var i = 0; i < putFirstValue; i++) {
         acumulador = acumulador + putSecondValue;
     }
-    var j = 0;
-    while (j < putFirstValue) {
-        acumulador = acumulador + putSecondValue;
-        j++; //# j= j+1;
-    }
-    console.log("resultado final...", acumulador);
+    // let j = 0;
+    // while(j < putFirstValue) {
+    //     acumulador = acumulador + putSecondValue;
+    //     j++; //# j= j+1;
+    // }
     // Output
+    console.log("resultado final...", acumulador);
 })();
