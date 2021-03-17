@@ -5,50 +5,53 @@
     // codigo de resultado ("P" = perdido, "E" = empatado, "G" = ganado)
     // Se dispone de un lote de datos conteniendo todos los resultados del torneo, agrupados por codEq.
     
-    //Desarrollar el programa que imprima, por cada equipo, su codigo y el puntaje total que obtuvo, 
+    // Desarrollar el programa que imprima, por cada equipo, su codigo y el puntaje total que obtuvo, 
     // considerando que suma 3 puntos por cada partido ganado, y 1 punto por cada partido empatado.
     
     // k = 8 equipos
     const reader = require("readline-sync");
     
-    const eq1 = {
-        codEq : ["3", "4", "4"],
-        codRs: ["G", "E", "G", "E", "P", "G", "G"]
-    };
-
-    const eq2 = {
-        codEq : ["4", "3", "3"],
-        codRs: ["E", "E", "G", "G", "G", "P", "P"]
-    };
-
-    const eq3 = {
-        codEq : ["2", "4", "3", "3"],
-        codRs: ["E", "P", "G", "E", "P", "P", "P"]
-    };
+    // Data Processing
     
-    const eq4 = {
-        codEq : ["2", "5", "3"],
-        codRs: "E"
-    };
     
-    const eq5 = {
-        codEq : ["4", "4", "2"],
-        codRs: "P"
-    };
-    const eq6 = {
-        codEq : ["4", "2", "4"],
-        codRs: "G"
-    };
+    
+    const resE1 = ["G", "E", "G", "E", "P", "G", "G"];
+    let acumE1 = 0;
+    
+    // for (let res of resE1) {
+    //     if (res === "G") {acumE1 = acumE1+3}
+    //     if (res === "E") {acumE1 = acumE1+1}
+    // }
+    // console.log(acumE1);
+    
+    // for (let res of resE1) {
+    //     switch (res) {
+    //         case "G": {
+    //             acumE1 = acumE1+3;
+    //             break;
+    //         }
+    //         case "E": {   
+    //             acumE1 = acumE1+1;
+    //             break;
+    //         }
+    //     }
+    // }
+    // console.log(acumE1);
+    
+    const puntosPorResultado: any = {
+        G: 3,
+        E: 1,
+        P: 0
+    }
 
-    const eq7 = {
-        codEq : ["4", "3", "2", "1"],
-        codRs: "P"
-    };
+    for (let res of resE1) {
+        acumE1 = acumE1 + puntosPorResultado[res];
+    }
 
-    const eq8 = {
-        codEq : ["4", "2", "4", "2"],
-        codRs: "G"
-    };
+    console.log(acumE1);
+    
+    
+    // Output
     
     
     

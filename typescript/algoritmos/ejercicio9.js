@@ -8,8 +8,8 @@
     var reader = require("readline-sync");
     // Imput
     var putAge = reader.question("Put the Year to calculate Age... ");
-    // Data Processing
     putAge = parseInt(putAge);
+    // Data Processing
     var calculateAge = function (a) {
         if (a <= 12) {
             console.log("Younger");

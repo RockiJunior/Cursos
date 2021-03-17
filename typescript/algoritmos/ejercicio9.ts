@@ -10,12 +10,12 @@
     
     
     let putAge = reader.question("Put the Year to calculate Age... ")
+    putAge = parseInt(putAge)
     
     
     
     // Data Processing
     
-    putAge = parseInt(putAge)
     
     let calculateAge = (a:number) => {
         if ( a <= 12 ) {
