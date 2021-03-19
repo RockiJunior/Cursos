@@ -18,13 +18,6 @@
     var smallestNumber = Math.min.apply(Math, values);
     console.log("The greatest value is..." + largestNumber + " ");
     console.log("The smallest value is..." + smallestNumber);
-    for (var _i = 0, values_1 = values; _i < values_1.length; _i++) {
-        var item = values_1[_i];
-        if (item === largestNumber) {
-            console.log("The greatest value position is..." + values.indexOf(largestNumber));
-        }
-        if (item === smallestNumber) {
-            console.log("The smallest value position is..." + values.indexOf(smallestNumber));
-        }
-    }
+    console.log("The greatest value position is..." + values.indexOf(largestNumber));
+    console.log("The smallest value position is..." + values.indexOf(smallestNumber));
 })();

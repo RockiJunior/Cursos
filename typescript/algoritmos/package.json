@@ -4,6 +4,7 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31"
+    "@types/node": "^14.14.31",
+    "jasmine-expect": "^5.0.0"
   }
 }

@@ -51,9 +51,6 @@
     //     }
     // }
     
-    
-    
-    
     let menorDosMil = salary.filter(item => item < 2000)
     let mayorDosMil2 = salary.filter(item => item >= 2000 && item < 3000);
     let mayorDosMil3 = salary.filter(item => item >= 3000 && item < 5000);

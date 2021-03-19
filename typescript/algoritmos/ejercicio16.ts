@@ -7,7 +7,7 @@
     
     // Imput
     let values:number[] = new Array();
-
+    
     let input = parseInt(reader.question("Put one of 10 values at a time..."));
     values.push(input);
     console.log(values)
@@ -25,14 +25,12 @@
     console.log(`The greatest value is...${largestNumber} `);
     console.log(`The smallest value is...${smallestNumber}`);
     
-    for ( let item of values){
-        if (item === largestNumber){
-            console.log(`The greatest value position is...${values.indexOf(largestNumber)}`)
-        }
-        if (item === smallestNumber){
-            console.log(`The smallest value position is...${values.indexOf(smallestNumber)}`)
-        }
-    }
+    
+    console.log(`The greatest value position is...${values.indexOf(largestNumber)}`)
+    
+    console.log(`The smallest value position is...${values.indexOf(smallestNumber)}`)
+    
+    
     
     
     
