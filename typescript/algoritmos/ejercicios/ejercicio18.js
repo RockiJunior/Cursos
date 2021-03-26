@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 (function () {
     // Dado un conjunto de valores numericos que finaliza con el ingreso de un valor nulo, 
     // determinar e imprimir:
