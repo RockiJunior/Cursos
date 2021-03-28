@@ -12,9 +12,11 @@
     // Nota: el lote puede estar vacío(el primer valor ingresado será negativo), o bien
     // puede contener uno, varios o todos los sublotes vacíos(ceros consecutivos).
     var reader = require("readline-sync");
-    var arreglo = new Array();
-    var arrNumbers = [];
-    var inputNumber = 1;
+    // UNA FORMA DE HACERLO...
+    // (IGUAL NO ANDUVO...)
+    // let arreglo:any[] = new Array();
+    // let arrNumbers:number[] = [];
+    // let inputNumber =  1;
     // while(inputNumber >= 0){
     //     arrNumbers = [];
     //     inputNumber = 1;
@@ -43,6 +45,7 @@
             else {
                 arrNumbers.push(inputNumber);
             }
+            console.log(arrNumbers);
         } while (inputNumber !== 0);
     };
     var arrayFather = new Array();
@@ -51,26 +54,8 @@
         if (xd === -1)
             break;
         arrayFather.push(xd);
+        console.log(arrayFather);
     }
     ;
     console.log(arrayFather);
-    // let arrNumbers:number[] = new Array();
-    // let ziro:number = 0;
-    // let inputValues = parseInt(reader.question("Put the Values one at a time up to the negative value..."));
-    // arrNumbers.push(inputValues);
-    // arrNumbers.push(ziro);
-    // console.log(arrNumbers);
-    // while(inputValues >= 1 ){
-    //     inputValues = parseInt(reader.question("Put the Values one at a time up to the negative value..."));
-    //     arrNumbers.push(inputValues);
-    //     arrNumbers.push(ziro);
-    //     console.log(arrNumbers);
-    //     if(inputValues <= -1){
-    //         arrNumbers.push(inputValues);
-    //     }
-    // };
-    // let filtrar = arrNumbers.filter(item => item > 0);
-    // console.log(filtrar);
-    // let suma = arrNumbers.reduce((a, b) => a + b, 0);
-    // console.log(`The average of all values is...`, filtrar.length / suma); 
 })();
