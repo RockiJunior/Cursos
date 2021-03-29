@@ -61,16 +61,22 @@
     
   ];
   
+
+ // Two ways to do this...
+
   let acumulator = 0;
 
   for(let item of arraContainer){
-   acumulator += item.peso;
+   acumulator += item.peso; // acumulator = acumulator + item.peso;
   };
   console.log(acumulator);
   
   let reducir = arraContainer.reduce(
     (accumulator:number, itemValue:any) => accumulator + itemValue.peso, 0);
-  console.log(reducir)
+  console.log(reducir);
+
+
+  let filtrar = arraContainer.filter(item => item === Math.max.apply(Math, arraContainer);
   
   
   
