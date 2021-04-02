@@ -17,16 +17,7 @@
     // Informar el motivo correspondiente a la infraccion de menor valor.
     
     
-    // TEORIA DEL MARTIN...
-    // Como intanciar un array de formas distintas.
     
-    // let arrayOfStrings:string[] = [];
-    // 
-    // let arrayOfStrings2: Array<string>;
-    // 
-    // arrayOfStrings2 = ["d", "x", 3];
-    // 
-    // arrayOfStrings2 = 3;
     class Infraction{
         public tyInfr: number;
         public reason?:string;
