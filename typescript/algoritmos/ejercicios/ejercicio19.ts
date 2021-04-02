@@ -15,13 +15,16 @@
     
     const reader = require("readline-sync");
     
-    // UNA FORMA DE HACERLO...
-    // (IGUAL NO ANDUVO...)
     
     // let arreglo:any[] = new Array();
     // let arrNumbers:number[] = [];
     // let inputNumber =  1;
     
+    // UNA FORMA DE HACERLO...
+    // (IGUAL NO ANDUVO...)
+    // let arreglo:any[] = new Array();
+    // let arrNumbers:number[] = [];
+    // let inputNumber =  1;
     // while(inputNumber >= 0){
     //     arrNumbers = [];
     //     inputNumber = 1;
@@ -53,23 +56,23 @@
             else{
                 arrNumbers.push(inputNumber);
             }
-        console.log(arrNumbers);
+            console.log(arrNumbers);
         }
         while(inputNumber !== 0);
     };
     
     let arrayFather = new Array();
-
+    
     while(true){
         let xd = createArrayNumbers();
         if (xd === -1) break;
         arrayFather.push(xd);
         console.log(arrayFather)
     };
-
+    
     console.log(arrayFather);
     
-   
+    
     
     
     

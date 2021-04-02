@@ -12,6 +12,9 @@
     // Nota: el lote puede estar vacío(el primer valor ingresado será negativo), o bien
     // puede contener uno, varios o todos los sublotes vacíos(ceros consecutivos).
     var reader = require("readline-sync");
+    // let arreglo:any[] = new Array();
+    // let arrNumbers:number[] = [];
+    // let inputNumber =  1;
     // UNA FORMA DE HACERLO...
     // (IGUAL NO ANDUVO...)
     // let arreglo:any[] = new Array();
