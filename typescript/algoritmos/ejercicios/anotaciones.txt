@@ -6,3 +6,7 @@ ejercicio 20 salteado.
 
 ejercicio 21 (consultar).
 
+consultar ejercicio 21 sobre los 3 puntitos en un Math.max
+
+consultar sobre como hacer una validacion sobre un objeto de tipo number, y no de otro.
+si llegase a ser otro tipo de dato, que corte el proceso.
