@@ -8,7 +8,6 @@
     // Desarrollar el programa que imprima, por cada equipo, su codigo y el puntaje total que obtuvo, 
     // considerando que suma 3 puntos por cada partido ganado, y 1 punto por cada partido empatado.
     // k = 8 equipos
-    var reader = require("readline-sync");
     // Data Processing
     var resE1 = ["G", "E", "G", "E", "P", "G", "G"];
     var acumE1 = 0;

@@ -64,7 +64,7 @@
     ;
     var totalValuesInfr = arrInfr.map(function (item) { return item.valueOfInfr; }, 0)
         .reduce(function (accumulator, itemValue) { return accumulator + itemValue; }, 0);
-    console.log(totalValuesInfr);
+    console.log("The Value of the infraction is...", totalValuesInfr);
     var accumulator = 0;
     for (var _a = 0, arrInfr_2 = arrInfr; _a < arrInfr_2.length; _a++) {
         var item = arrInfr_2[_a];
@@ -83,5 +83,5 @@
         ;
     }
     ;
-    console.log("The total of all recorder infractions and for extra severity are...", accumulator + totalValuesInfr);
+    console.log("The infringement for the severity of the offense plus the value of the offense is ...", accumulator + totalValuesInfr);
 })();

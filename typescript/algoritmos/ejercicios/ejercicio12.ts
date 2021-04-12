@@ -9,12 +9,7 @@
     // considerando que suma 3 puntos por cada partido ganado, y 1 punto por cada partido empatado.
     
     // k = 8 equipos
-    const reader = require("readline-sync");
-    
     // Data Processing
-    
-    
-    
     const resE1 = ["G", "E", "G", "E", "P", "G", "G"];
     let acumE1 = 0;
     
