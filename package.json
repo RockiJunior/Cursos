@@ -21,5 +21,8 @@
   "homepage": "https://github.com/RockiJunior/Cursos#readme",
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1102.11"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
