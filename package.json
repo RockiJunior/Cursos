@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/RockiJunior/Cursos/issues"
   },
-  "homepage": "https://github.com/RockiJunior/Cursos#readme"
+  "homepage": "https://github.com/RockiJunior/Cursos#readme",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.1102.11"
+  }
 }
