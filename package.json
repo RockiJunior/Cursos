@@ -1,0 +1,22 @@
+{
+  "name": "cursos",
+  "version": "1.0.0",
+  "description": "agregado de node_modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockiJunior/Cursos.git"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "RockiJunior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockiJunior/Cursos/issues"
+  },
+  "homepage": "https://github.com/RockiJunior/Cursos#readme"
+}
