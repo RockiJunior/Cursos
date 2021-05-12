@@ -5,4 +5,4 @@ import { reader, howMuchDays } from '../services/ejercicio.services';
 let year=  parseInt(reader.question("Put the Year..."));
 let month= parseInt(reader.question("Put the Month..."));
 // let fecha1: Date = new Date(year);
-console.log(howMuchDays(year, month));
+console.log('The number of days in the month is...', howMuchDays(year, month));

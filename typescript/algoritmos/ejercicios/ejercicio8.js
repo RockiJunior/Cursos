@@ -7,4 +7,4 @@ var ejercicio_services_1 = require("../services/ejercicio.services");
 var year = parseInt(ejercicio_services_1.reader.question("Put the Year..."));
 var month = parseInt(ejercicio_services_1.reader.question("Put the Month..."));
 // let fecha1: Date = new Date(year);
-console.log(ejercicio_services_1.howMuchDays(year, month));
+console.log('The number of days in the month is...', ejercicio_services_1.howMuchDays(year, month));

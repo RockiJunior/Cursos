@@ -7,5 +7,5 @@ var ejercicio_services_1 = require("../services/ejercicio.services");
 // "juevenil" si la edad es mayor que 18 y no supera los 26.
 // "mayor" si no cumple ninguna de las condiciones anteriores.
 // Imput
-var putAge = parseInt(ejercicio_services_1.reader.question("Put the Year to calculate Age... "));
+var putAge = ejercicio_services_1.reader.question('Put a Number to Calculate Age...');
 ejercicio_services_1.calculateAge(putAge);

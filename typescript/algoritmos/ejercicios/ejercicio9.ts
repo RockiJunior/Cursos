@@ -5,6 +5,6 @@ import {reader, calculateAge} from '../services/ejercicio.services'
 // "juevenil" si la edad es mayor que 18 y no supera los 26.
 // "mayor" si no cumple ninguna de las condiciones anteriores.
 // Imput
-let putAge = parseInt(reader.question("Put the Year to calculate Age... "));
+let putAge = reader.question('Put a Number to Calculate Age...')
 
 calculateAge(putAge);

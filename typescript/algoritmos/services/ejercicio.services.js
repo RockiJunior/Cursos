@@ -61,14 +61,13 @@ var howMuchDays = function (year, month) { return new Date(year, month, 0).getDa
 exports.howMuchDays = howMuchDays;
 // Ejercicio 9
 var calculateAge = function (a) {
-    var putAge = parseInt(exports.reader.question("Put the Year to calculate Age... "));
     if (a <= 12) {
         console.log("Younger");
     }
-    else if (a >= 13 && putAge <= 17) {
+    else if (a >= 13 && a <= 17) {
         console.log("Cadet");
     }
-    else if (a >= 18 && putAge <= 26) {
+    else if (a >= 18 && a <= 26) {
         console.log("Youth");
     }
     else {

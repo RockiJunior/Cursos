@@ -39,14 +39,13 @@ export const howMuchDays = (year:number, month:number) => new Date(year, month, 
 
 // Ejercicio 9
 export const calculateAge = (a:number) => {
-    let putAge = parseInt(reader.question("Put the Year to calculate Age... "));
     if ( a <= 12 ) {
         console.log("Younger")
     }
-    else if( a >= 13 && putAge <= 17 ) {
+    else if( a >= 13 && a <= 17 ) {
         console.log("Cadet")
     }
-    else if( a >= 18 && putAge <= 26){
+    else if( a >= 18 && a <= 26){
         console.log("Youth")
     }
     else {
