@@ -18,11 +18,3 @@ console.log("El resultado de la multiplicacion es...", resultadoMultipliacion);
 console.log("El resultado de la diferencia es...", diferencia(a, b));
 
 
-let puedeManejar = (edad : number )=> {
-    if(edad > 18){
-        return true
-    }
-    return false;
-}
-
-puedeManejar(22);
