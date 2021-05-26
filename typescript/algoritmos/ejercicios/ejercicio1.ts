@@ -16,7 +16,3 @@ const resultadoMultipliacion = multiplicar(a,b);
 console.log("El resultado de la suma es...", resultadoSuma);
 console.log("El resultado de la multiplicacion es...", resultadoMultipliacion);
 console.log("El resultado de la diferencia es...", diferencia(a, b));
-
-
-
-

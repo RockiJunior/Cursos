@@ -1,13 +1,21 @@
 "use strict";
-var Numero = /** @class */ (function () {
-    function Numero(x) {
-        this.x = x;
-    }
-    Numero.prototype.suma = function (y) {
-        return new Numero(this.x + y);
-    };
-    return Numero;
-}());
-var primerNumero = new Numero(5);
-var primerNumeroSumado = primerNumero.suma(9);
-console.log(primerNumeroSumado);
+// class Numero {
+//   private x: number;
+//   constructor(x: number) {
+//     this.x = x;
+//   }
+//   suma(y: number): Numero {
+//     return new Numero(this.x + y);        
+//   }
+// }
+// const primerNumero = new Numero(5);
+// const primerNumeroSumado = primerNumero.suma(9);
+// console.log(primerNumeroSumado);
+var obj = {
+    nombre: 'Gabriel',
+    asd: function () {
+        obj.nombre = 'Cambiado';
+        console.log(obj);
+    },
+};
+obj.asd();
