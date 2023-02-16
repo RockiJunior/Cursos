@@ -1,0 +1,10 @@
+FRAMEWORK
+Un frameWork es una herramienta de trabajo que ayuda a realizar un proyecto, 
+con objetivos especificos.
+
+PRE PROCESADOR
+Es una herramienta que nos permite escribir pseudocodigo(lenguaje mas simple), 
+que luego va a ser transformado(compilado) a CSS.
+
+RESPONSIVE WEBSITE
+Es la forma de adaptar la pagina web a cualquier dispositivo.  
