@@ -1,0 +1,11 @@
+Scape Sequences
+
+\0 => nulo
+\b => retroceso
+\t => Tabulador
+\n => Salto de linea
+\f => Salto de Página
+\r => Retorno de carro
+\" => Comillas
+\? => Signo de interrogación
+\\ => Barra invertida

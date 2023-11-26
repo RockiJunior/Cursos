@@ -1,0 +1,53 @@
+Especificadores de formato - Códigos de formato
+
+Estos especificadores se utilizan en funciones de formato de impresión, como printf,
+para indicar el tipo de datos que se va a imprimir y cómo se va a formatear.
+
+%c: Se utiliza para imprimir un único carácter.
+%d: Imprime un número entero en formato decimal.
+%u: Imprime un número entero sin signo en formato decimal.
+%o: Imprime un número entero en formato octal.
+%x: Imprime un número entero en formato hexadecimal.
+%e: Imprime un número real en coma flotante con notación científica (con exponente).
+%f: Imprime un número real en coma flotante sin notación científica (sin exponente).
+%s: Imprime una cadena de caracteres.
+%p: Imprime un puntero o dirección de memoria
+
+
+------------------------------------------------------------------------- otros extra:
+
+%ld: Imprime un número entero largo.
+%lu: Imprime un número entero largo sin signo.
+%lld: Imprime un número entero largo largo.
+%llu: Imprime un número entero largo largo sin signo.
+%f: Imprime un número en formato de punto flotante.
+%lf: Imprime un número en formato de punto flotante de doble precisión.
+%Lf: Imprime un número en formato de punto flotante de larga doble precisión.
+%c: Imprime un carácter.
+%s: Imprime una cadena de caracteres.
+%p: Imprime un puntero.
+
+
+--------------------------------------------------------------------------- una lista mas completa:
+
+%d o %i: Número entero con signo en formato decimal.
+%u: Número entero sin signo en formato decimal.
+%o: Número entero sin signo en formato octal.
+%x o %X: Número entero sin signo en formato hexadecimal.
+%f: Número de punto flotante en formato decimal.
+%e o %E: Número de punto flotante en formato de notación científica.
+%g o %G: Número de punto flotante en formato corto o notación científica, según sea necesario.
+%c: Carácter.
+%s: Cadena de caracteres.
+%p: Puntero.
+%ld o %li: Número entero largo con signo en formato decimal.
+%lu: Número entero largo sin signo en formato decimal.
+%lo: Número entero largo sin signo en formato octal.
+%lx o %lX: Número entero largo sin signo en formato hexadecimal.
+%lld o %lli: Número entero largo largo con signo en formato decimal.
+%llu: Número entero largo largo sin signo en formato decimal.
+%llo: Número entero largo largo sin signo en formato octal.
+%llx o %llX: Número entero largo largo sin signo en formato hexadecimal.
+
+
+LA FORMA MAS COMUN DE UTILIZARLOS ESTÁ EN EL ARCHIVO DE LA CARPETA 02-estructure/estructura.c
